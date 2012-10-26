@@ -1,0 +1,3 @@
+--langdef=coffee
+--langmap=coffee:.coffee
+--regex-coffee=/^[ \t]*(@?[a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
