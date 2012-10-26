@@ -5,4 +5,4 @@
 --langdef=markdown
 --langmap=markdown:.md
 --langmap=markdown:+.markdown
---regex-markdown=/^[ \t]*#+[ \t]*(.*)/\1/f,function/
+--regex-markdown=/^[ \t]*#+[ \t]*(.+)/\1/f,function/
