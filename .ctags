@@ -6,3 +6,5 @@
 --langmap=markdown:.md
 --langmap=markdown:+.markdown
 --regex-markdown=/^#+[ \t]*([^#]+)/\1/f,function/
+
+--langmap=C++:+.mm
