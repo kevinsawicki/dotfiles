@@ -1,11 +1,11 @@
---langdef=coffee
---langmap=coffee:.coffee
---regex-coffee=/^[ \t]*(@?[a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
+--langdef=CoffeeScript
+--langmap=CoffeeScript:.coffee
+--regex-CoffeeScript=/^[ \t]*(@?[a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
 
---langdef=markdown
---langmap=markdown:.md
---langmap=markdown:+.markdown
---regex-markdown=/^#+[ \t]*([^#]+)/\1/f,function/
+--langdef=Markdown
+--langmap=Markdown:.md
+--langmap=Markdown:+.markdown
+--regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
 
 --langmap=C++:+.mm
 
