@@ -8,3 +8,5 @@
 --regex-markdown=/^#+[ \t]*([^#]+)/\1/f,function/
 
 --langmap=C++:+.mm
+
+--langmap=Ruby:+(Rakefile)
