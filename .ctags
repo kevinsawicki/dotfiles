@@ -3,8 +3,7 @@
 --regex-CoffeeScript=/^[ \t]*(@?[a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
 
 --langdef=Markdown
---langmap=Markdown:.md
---langmap=Markdown:+.markdown
+--langmap=Markdown:.md.markdown
 --regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
 
 --langmap=C++:+.mm
