@@ -20,3 +20,12 @@
 	h = show HEAD
 	d = diff
 	co = checkout
+[push]
+	default = tracking
+[diff]
+	renames = copies
+[rerere]
+	enabled = true
+[advice]
+	statusHints = false
+	pushNonFastForward = false
