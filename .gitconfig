@@ -20,6 +20,8 @@
 	h = show HEAD
 	d = diff
 	co = checkout
+	unstage = reset HEAD
+	discard = checkout HEAD --
 [push]
 	default = tracking
 [diff]
