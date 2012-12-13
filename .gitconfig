@@ -31,3 +31,5 @@
 [advice]
 	statusHints = false
 	pushNonFastForward = false
+	implicitIdentity = false
+	detachedHead = false
