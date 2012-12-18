@@ -18,6 +18,7 @@
 	s = status
 	b = branch -avv
 	h = show HEAD
+	hf = show HEAD --name-only
 	d = diff
 	co = checkout
 	unstage = reset HEAD
