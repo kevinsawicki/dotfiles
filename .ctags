@@ -1,6 +1,6 @@
 --langdef=CoffeeScript
 --langmap=CoffeeScript:.coffee
---regex-CoffeeScript=/^[ \t]*(@?[a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
+--regex-CoffeeScript=/^[ \t]*@?([a-zA-Z$_]+)[ \t]*(=|\:)[ \t]*(\([^\)]*\))?[ \t]*(-|=)>/\1/f,function/
 --regex-CoffeeScript=/^[ \t]*describe "([^"]+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
 --regex-CoffeeScript=/^[ \t]*it "([^"]+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
 
