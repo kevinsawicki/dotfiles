@@ -4,6 +4,10 @@
 --regex-CoffeeScript=/^[ \t]*[f]*describe "([^"]+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
 --regex-CoffeeScript=/^[ \t]*[f]*it "([^"]+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
 
+--langdef=Css
+--langmap=Css:.css
+--regex-Css=/^[ \t]*(.+)[ \t]*\{/\1/f,function/
+
 --langdef=Markdown
 --langmap=Markdown:.md.markdown
 --regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
