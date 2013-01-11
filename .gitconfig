@@ -21,7 +21,7 @@
 	hf = show HEAD --name-only
 	d = diff
 	co = checkout
-	f = fetch --prune
+	f = fetch --prune --all
 	unstage = reset HEAD
 	discard = checkout HEAD --
 	up = push origin
