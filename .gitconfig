@@ -20,6 +20,7 @@
 	h = show HEAD
 	hf = show HEAD --name-only
 	d = diff
+	di = diff --staged
 	co = checkout
 	f = fetch --prune --all
 	unstage = reset HEAD
