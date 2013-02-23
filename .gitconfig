@@ -32,6 +32,8 @@
 	renames = copies
 [rerere]
 	enabled = true
+[status]
+	submodulesummary = true
 [advice]
 	statusHints = false
 	pushNonFastForward = false
