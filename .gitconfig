@@ -23,6 +23,8 @@
 	di = diff --staged
 	co = checkout
 	f = fetch --prune --all
+	l = log --oneline --decorate
+	lf = log --oneline --decorate --follow --
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
