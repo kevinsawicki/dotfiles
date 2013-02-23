@@ -35,6 +35,8 @@
 	renames = copies
 [rerere]
 	enabled = true
+[blame]
+	date = short
 [status]
 	submodulesummary = true
 	relativePaths = false
