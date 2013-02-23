@@ -15,7 +15,7 @@
 	local = yellow
 	remote = green
 [alias]
-	s = status
+	s = status -sb
 	b = branch -avv
 	h = show HEAD
 	hf = show HEAD --name-only
