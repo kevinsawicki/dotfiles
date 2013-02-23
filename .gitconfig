@@ -28,6 +28,7 @@
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
+	contains = branch -a --contains
 [push]
 	default = tracking
 [diff]
