@@ -23,7 +23,7 @@
 	di = diff --staged
 	co = checkout
 	f = fetch --prune --all
-	unstage = reset HEAD
+	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
 [push]
