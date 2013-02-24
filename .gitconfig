@@ -24,6 +24,7 @@
 	co = checkout
 	f = fetch --prune --all
 	l = log --oneline --decorate
+	lg = log --oneline --decorate -graph
 	lf = log --oneline --decorate --follow --
 	unstage = reset HEAD --
 	discard = checkout HEAD --
