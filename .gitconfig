@@ -41,6 +41,8 @@
 	submodulesummary = true
 	relativePaths = false
 	showUntrackedFiles = all
+[notes]
+	rewriteRef = refs/notes/*
 [advice]
 	statusHints = false
 	pushNonFastForward = false
