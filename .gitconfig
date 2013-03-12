@@ -44,6 +44,8 @@
 	showUntrackedFiles = all
 [notes]
 	rewriteRef = refs/notes/*
+[merge]
+	defaultToUpstream = true
 [advice]
 	statusHints = false
 	pushNonFastForward = false
