@@ -30,6 +30,8 @@
 	discard = checkout HEAD --
 	up = push origin
 	contains = branch -a --contains
+	m = merge
+	r = rebase
 [push]
 	default = tracking
 [diff]
