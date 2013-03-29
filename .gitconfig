@@ -17,10 +17,10 @@
 [alias]
 	s = status -sb
 	b = branch -avv
-	h = show HEAD
+	h = show HEAD --word-diff
 	hf = show HEAD --name-only
-	d = diff
-	di = diff --staged
+	d = diff --word-diff
+	di = diff --staged --word-diff
 	co = checkout
 	f = fetch --prune --all
 	l = log --oneline --decorate
