@@ -9,3 +9,7 @@
 ## .gitconfig
 
   * Install to `~/.gitconfig`
+
+## .bash_profile
+
+  * Install to `~/.bash_profile`
