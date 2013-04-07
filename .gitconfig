@@ -25,7 +25,9 @@
 	f = fetch --prune --all
 	l = log --oneline --decorate
 	lg = log --oneline --decorate -graph
+	lag = log --oneline --decorate -graph --all
 	lf = log --oneline --decorate --follow --
+	laf = log --oneline --decorate --follow --all --
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
