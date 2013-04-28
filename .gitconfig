@@ -28,6 +28,7 @@
 	lag = log --oneline --decorate --graph --all
 	lf = log --oneline --decorate --follow --
 	laf = log --oneline --decorate --follow --all --
+	lc = log --oneline --decorate --graph --left-right
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
