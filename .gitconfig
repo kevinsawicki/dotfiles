@@ -29,6 +29,7 @@
 	lf = log --oneline --decorate --follow --
 	laf = log --oneline --decorate --follow --all --
 	lc = log --oneline --decorate --graph --left-right
+	lch = !git log --oneline --decorate --graph --left-right HEAD...$1
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
