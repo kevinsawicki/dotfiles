@@ -9,6 +9,7 @@
 ## .gitconfig
 
   * Install to `~/.gitconfig`
+  * List of all available variables is [here](http://git-scm.com/docs/git-config#_variables).
 
 ## .bash_profile
 
