@@ -31,7 +31,7 @@
 	unstage = reset HEAD --
 	discard = checkout HEAD --
 	up = push origin
-	contains = branch -a --contains
+	contains = branch -avv --contains
 	m = merge
 	r = rebase
 [push]
