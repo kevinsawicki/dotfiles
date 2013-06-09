@@ -15,28 +15,28 @@
 	local = yellow
 	remote = green
 [alias]
-	s = status -sb
 	b = branch -avv
-	h = show HEAD --word-diff=color
-	hf = show HEAD --name-only
+	ci = commit
+	co = checkout
+	contains = branch -avv --contains
 	d = diff --word-diff=color
 	di = diff --staged --word-diff=color
-	co = checkout
-	ci = commit
+	discard = checkout HEAD --
 	f = fetch --prune --all
+	h = show HEAD --word-diff=color
+	hf = show HEAD --name-only
 	l = log --oneline --decorate
-	lg = log --oneline --decorate --graph
-	lag = log --oneline --decorate --graph --all
-	lf = log --oneline --decorate --follow --
 	laf = log --oneline --decorate --follow --all --
+	lag = log --oneline --decorate --graph --all
 	lc = log --oneline --decorate --graph --left-right
 	lch = !git log --oneline --decorate --graph --left-right HEAD...$1
-	unstage = reset HEAD --
-	discard = checkout HEAD --
-	up = push origin
-	contains = branch -avv --contains
+	lf = log --oneline --decorate --follow --
+	lg = log --oneline --decorate --graph
 	m = merge
 	r = rebase
+	s = status -sb
+	unstage = reset HEAD --
+	up = push origin
 [push]
 	default = tracking
 [diff]
