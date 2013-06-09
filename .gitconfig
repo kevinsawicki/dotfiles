@@ -22,6 +22,7 @@
 	d = diff --word-diff=color
 	di = diff --staged --word-diff=color
 	co = checkout
+	ci = commit
 	f = fetch --prune --all
 	l = log --oneline --decorate
 	lg = log --oneline --decorate --graph
