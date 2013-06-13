@@ -17,6 +17,10 @@
 --langmap=Markdown:.md.markdown
 --regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
 
+--langdef=Json
+--langmap=Json:.json
+--regex-Json=/^[ \t]*"([^"]+)"\:/\1/f,function/
+
 --langmap=C++:+.mm
 
 --langmap=Ruby:+(Rakefile)
