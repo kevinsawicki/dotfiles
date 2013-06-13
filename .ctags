@@ -21,6 +21,12 @@
 --langmap=Json:.json
 --regex-Json=/^[ \t]*"([^"]+)"\:/\1/f,function/
 
+--langdef=Cson
+--langmap=Cson:.cson
+--regex-Cson=/^[ \t]*'([^']+)'[ \t]*\:/\1/f,function/
+--regex-Cson=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,function/
+--regex-Cson=/^[ \t]*([^'"]+)[ \t]*\:/\1/f,function/
+
 --langmap=C++:+.mm
 
 --langmap=Ruby:+(Rakefile)
