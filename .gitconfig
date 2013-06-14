@@ -17,6 +17,8 @@
 [alias]
 	b = branch -avv
 	ci = commit
+	cian = commit --amend --no-edit
+	ciaan = commit --all --amend --no-edit
 	co = checkout
 	contains = branch -avv --contains
 	d = diff --word-diff=color
