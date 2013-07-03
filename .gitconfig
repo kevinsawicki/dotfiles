@@ -40,6 +40,7 @@
 	r = rebase
 	s = status -sb
 	su = submodule update
+	supgrade = submodule foreach 'git f && git co FETCH_HEAD'
 	unstage = reset HEAD --
 	up = push origin
 [push]
