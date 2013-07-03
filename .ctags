@@ -4,6 +4,7 @@
 --regex-CoffeeScript=/^[ \t]*f*describe[ \t]"(.+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
 --regex-CoffeeScript=/^[ \t]*f*describe[ \t]'(.+)'[ \t]*,[ \t]+[-=]>/\1/f,function/
 --regex-CoffeeScript=/^[ \t]*f*it[ \t]"([^"]+)"[ \t]*,[ \t]+[-=]>/\1/f,function/
+--regex-CoffeeScript=/^[ \t]*f*it[ \t]'([^']+)'[ \t]*,[ \t]+[-=]>/\1/f,function/
 
 --langdef=Css
 --langmap=Css:.css
