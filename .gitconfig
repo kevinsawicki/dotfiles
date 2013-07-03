@@ -39,6 +39,7 @@
 	m = merge
 	r = rebase
 	s = status -sb
+	su = submodule update
 	unstage = reset HEAD --
 	up = push origin
 [push]
