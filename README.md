@@ -5,6 +5,9 @@
   * Install to `~/.ctags`
   * Includes support [CoffeeScript](http://coffeescript.org/) functions
   * Includes support for [Jasmine](http://pivotal.github.com/jasmine/) specs
+  * Includes support for Markdown headers
+  * Includes support for JSON/CSON key values
+  * Includes support for CSS/LESS/SASS selectors
 
 ## .gitconfig
 
