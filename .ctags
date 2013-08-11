@@ -24,7 +24,12 @@
 --regex-Css=/^[ \t]*(.+)[ \t]*,[ \t]*$/\1/f,function/
 
 --langdef=Markdown
---langmap=Markdown:.md.markdown
+--langmap=Markdown:.md
+--langmap=Markdown:+.markdown
+--langmap=Markdown:+.mdown
+--langmap=Markdown:+.mkd
+--langmap=Markdown:+.mkdown
+--langmap=Markdown:+.ron
 --regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
 
 --langdef=Json
