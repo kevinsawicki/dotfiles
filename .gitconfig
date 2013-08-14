@@ -26,6 +26,7 @@
 	d = diff --word-diff=color
 	di = diff --staged --word-diff=color
 	discard = checkout HEAD --
+	e = config --local user.email
 	f = fetch --prune --all
 	h = show HEAD --word-diff=color
 	hf = show HEAD --name-only
