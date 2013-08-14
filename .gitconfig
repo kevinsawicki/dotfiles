@@ -38,6 +38,7 @@
 	lg = log --oneline --decorate --graph
 	m = merge
 	r = rebase
+	rv = remote -v
 	s = status -sb
 	su = submodule update --init
 	supgrade = submodule foreach 'git f && git co FETCH_HEAD'
