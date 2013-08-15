@@ -38,6 +38,7 @@
 	lf = log --oneline --decorate --follow --
 	lg = log --oneline --decorate --graph
 	m = merge
+	n = config --local user.name
 	r = rebase
 	rv = remote -v
 	s = status -sb
