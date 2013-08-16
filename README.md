@@ -9,11 +9,11 @@
   * Includes support for JSON/CSON key values
   * Includes support for CSS/LESS/SASS selectors
 
-## [.gitconfig](https://raw.github.com/kevinsawicki/dotfiles/master/.ctags)
+## [.gitconfig](https://raw.github.com/kevinsawicki/dotfiles/master/.gitconfig)
 
   * Install to `~/.gitconfig`
   * List of all available variables is [here](http://git-scm.com/docs/git-config#_variables).
 
-## [.bash_profile](https://raw.github.com/kevinsawicki/dotfiles/master/.ctags)
+## [.bash_profile](https://raw.github.com/kevinsawicki/dotfiles/master/.bash_profile)
 
   * Install to `~/.bash_profile`
