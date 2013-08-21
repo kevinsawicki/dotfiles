@@ -39,6 +39,7 @@
 --langdef=Cson
 --langmap=Cson:.cson
 --langmap=Cson:+.gyp
+--langmap=Cson:+.gypi
 --regex-Cson=/^[ \t]*'([^']+)'[ \t]*\:/\1/f,function/
 --regex-Cson=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,function/
 --regex-Cson=/^[ \t]*([^'"]+)[ \t]*\:/\1/f,function/
