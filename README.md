@@ -17,3 +17,11 @@
 ## [.bash_profile](https://raw.github.com/kevinsawicki/dotfiles/master/.bash_profile)
 
   * Install to `~/.bash_profile`
+
+## [.terminal](https://raw.github.com/kevinsawicki/dotfiles/master/.terminal)
+
+  * Open the **Terminal** app (Mac OS X only)
+  * Select the *Terminal* > *Preferences...* menu
+  * Select the *Settings* tab
+  * Click the gear icon in the bottom left-hand side under *Profiles*
+  * Select *Import...*
