@@ -22,6 +22,7 @@
 	ciaan = commit --all --amend --no-edit
 	cian = commit --amend --no-edit
 	co = checkout
+	com = checkout master
 	contains = branch -avv --contains
 	d = diff --word-diff=color
 	di = diff --staged --word-diff=color
