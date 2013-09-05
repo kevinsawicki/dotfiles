@@ -16,6 +16,8 @@
 	remote = green
 [alias]
 	b = branch -avv
+	bd = branch -d
+	bm = branch -m
 	ci = commit
 	cia = commit --amend
 	ciaa = commit --all --amend
