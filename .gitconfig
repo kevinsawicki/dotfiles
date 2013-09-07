@@ -50,6 +50,8 @@
 	s = status -sb
 	su = submodule update --init
 	supgrade = submodule foreach 'git f && git co FETCH_HEAD'
+	t = tag
+	td = tag -d
 	unstage = reset HEAD --
 	up = push origin
 [push]
