@@ -15,6 +15,7 @@
 	local = yellow
 	remote = green
 [alias]
+	a = add
 	b = branch -avv
 	bd = branch -d
 	bm = branch -m
