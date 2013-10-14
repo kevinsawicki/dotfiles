@@ -48,6 +48,7 @@
 	ri = rebase --interactive
 	rc = rebase --continue
 	ra = rebase --abort
+	rs = rebase --skip
 	rv = remote -v
 	s = status -sb
 	su = submodule update --init
