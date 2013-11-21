@@ -16,7 +16,7 @@
 	remote = green
 [alias]
 	a = add
-	aa = add --all
+	aa = add --all :/
 	b = branch -avv
 	bd = branch -d
 	bm = branch -m
