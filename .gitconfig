@@ -52,7 +52,7 @@
 	rs = rebase --skip
 	rv = remote -v
 	s = status -sb
-	su = submodule update --init
+	su = submodule update --init --recursive
 	supgrade = submodule foreach 'git f && git co FETCH_HEAD'
 	t = tag
 	td = tag -d
