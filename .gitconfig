@@ -34,6 +34,7 @@
 	e = config --local user.email
 	f = fetch --prune --all
 	fd = filter-branch --subdirectory-filter
+	fm = !git f && git m
 	h = show HEAD --word-diff=color
 	hf = show HEAD --name-only
 	l = log --oneline --decorate
