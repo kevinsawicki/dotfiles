@@ -1,4 +1,4 @@
-alias ll='ls -alF'
+alias ll='ls -alFh'
 
 # Download from https://raw.github.com/git/git/master/contrib/completion/git-completion.bash
 source ~/git-completion.bash
