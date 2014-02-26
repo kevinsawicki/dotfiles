@@ -35,3 +35,8 @@
 
   * Download [Atom](https://atom.io)
   * Install to `~/.atom/config.cson`
+
+## [.atom/keymap.cson](https://raw.github.com/kevinsawicki/dotfiles/master/.atom/keymap.cson)
+
+  * Download [Atom](https://atom.io)
+  * Install to `~/.atom/keymap.cson`
