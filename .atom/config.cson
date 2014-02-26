@@ -1,0 +1,18 @@
+'core':
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'excludeVcsIgnoredPaths': false
+'editor':
+  'tabLength': 2
+  'showIndentGuide': true
+  'fontFamily': 'Source Code Pro'
+  'fontSize': 13
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true

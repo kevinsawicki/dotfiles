@@ -30,3 +30,8 @@
 
   * Download [Atom](https://atom.io)
   * Install to `~/.atom/styles.less`
+
+## [.atom/config.cson](https://raw.github.com/kevinsawicki/dotfiles/master/.atom/config.cson)
+
+  * Download [Atom](https://atom.io)
+  * Install to `~/.atom/config.cson`
