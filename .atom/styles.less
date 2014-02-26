@@ -1,0 +1,74 @@
+.tree-view {
+  font-size: 11px;
+}
+
+.editor {
+  .invalid.illegal {
+    color: #fff;
+    background: #DA2C43;
+    opacity: 0.9;
+  }
+
+  .markup.underline.link.hyperlink {
+    color: #F9EE98;
+    text-decoration: underline;
+  }
+
+  .gfm {
+    .markup {
+      &.heading {
+        color: #87C38A;
+        font-weight: bold;
+      }
+
+      &.underline {
+        color: #F9EE98;
+        text-decoration: underline;
+      }
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .raw {
+      color: #C6C5FE;
+    }
+
+    &.source {
+      color: #DDD;
+    }
+
+    .variable.list {
+      color: #96CBFE;
+      font-weight: bold;
+    }
+
+    .link {
+      color: #CCC;
+
+      .entity {
+        color: #DDD;
+        font-weight: bold;
+      }
+    }
+
+    .emoji {
+      .word {
+        color: #FF73FD;
+      }
+      .start {
+        font-weight: bold;
+        color: #777;
+      }
+      .end {
+        font-weight: bold;
+        color: #777;
+      }
+    }
+  }
+}

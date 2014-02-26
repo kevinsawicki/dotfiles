@@ -25,3 +25,8 @@
   * Select the *Settings* tab
   * Click the gear icon in the bottom left-hand side under *Profiles*
   * Select *Import...*
+
+## [.atom/styles.less]
+
+  * Download [Atom](https://atom.io)
+  * Install to `~/.atom/styles.less`
