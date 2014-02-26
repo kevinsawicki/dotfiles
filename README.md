@@ -26,7 +26,7 @@
   * Click the gear icon in the bottom left-hand side under *Profiles*
   * Select *Import...*
 
-## [.atom/styles.less]
+## [.atom/styles.less](https://raw.github.com/kevinsawicki/dotfiles/master/.atom/styles.less)
 
   * Download [Atom](https://atom.io)
   * Install to `~/.atom/styles.less`
