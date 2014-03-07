@@ -1,3 +1,5 @@
+[core]
+	editor = atom --wait
 [user]
 	name = Kevin Sawicki
 	email = kevinsawicki@gmail.com
