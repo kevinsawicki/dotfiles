@@ -1,18 +1,27 @@
 'core':
-  'ignoredNames': [
-    '.git'
-    '.svn'
-    '.DS_Store'
-  ]
   'themes': [
     'atom-dark-ui'
     'atom-dark-syntax'
   ]
   'excludeVcsIgnoredPaths': false
+  'disabledPackages': []
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
 'editor':
-  'tabLength': 2
-  'showIndentGuide': true
   'fontFamily': 'Source Code Pro'
+  'showIndentGuide': true
   'fontSize': 13
 'autocomplete':
   'includeCompletionsFromAllBuffers': true
+'welcome':
+  'showOnStartup': false
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
+'fuzzy-finder':
+  'ignoredNames': [
+    '*.class'
+    '*.asc'
+  ]

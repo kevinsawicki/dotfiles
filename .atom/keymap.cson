@@ -13,3 +13,6 @@
 #   'ctrl-p': 'core:move-down'
 '.editor':
   'ctrl-a': 'editor:move-to-first-character-of-line'
+
+'body':
+  'ctrl-l': 'window:reload'
