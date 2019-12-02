@@ -1,0 +1,56 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 17,
+    "editor.tabSize": 2,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "ruby.rubocop.executePath": "/Users/kevin/github/github/bin/",
+    "flow.pathToFlow": "/Users/kevin/github/github/bin/flow",
+    "workbench.startupEditor": "newUntitledFile",
+    "go.coverageOptions": "showUncoveredCodeOnly",
+    "go.coverOnSave": true,
+    "go.formatTool": "goimports",
+    "window.zoomLevel": 0,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "sqltools.connections": [
+      {
+        "askForPassword": false,
+        "connectionTimeout": 30,
+        "database": "github_development",
+        "dialect": "MySQL",
+        "name": "github",
+        "socketPath": "/private/tmp/mysql.sock",
+        "username": "root"
+      }
+    ],
+    "editor.roundedSelection": false,
+    "editor.scrollBeyondLastLine": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.activityBar.visible": true,
+    "window.newWindowDimensions": "maximized",
+    "[sql]": {
+      "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "go.coverageDecorator": {
+      "type": "gutter",
+      "uncoveredGutterStyle": "slashyellow"
+    },
+    "ActiveFileInStatusBar.fullpath": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "go.testOnSave": true,
+    "search.smartCase": true,
+    "search.showLineNumbers": true,
+    "editor.find.addExtraSpaceOnTop": false
+  }
