@@ -1,5 +1,5 @@
 [core]
-	editor = atom --wait
+	editor = code --wait
 [user]
 	name = Kevin Sawicki
 	email = kevinsawicki@gmail.com
@@ -21,6 +21,7 @@
 	aa = add --all :/
 	b = branch -avv
 	bd = branch -d
+	bc = !git branch --merged | egrep -v '(^\\*|master|dev)' | xargs git branch -d
 	bm = branch -m
 	ci = commit
 	cia = commit --amend
@@ -48,6 +49,7 @@
 	lg = log --oneline --decorate --graph
 	m = merge
 	n = config --local user.name
+	org = diff 'HEAD@{4 days ago}' HEAD -- internal/cost-center
 	r = rebase
 	ri = rebase --interactive
 	rc = rebase --continue
@@ -82,3 +84,12 @@
 	pushNonFastForward = false
 	implicitIdentity = false
 	detachedHead = false
+[credential]
+	helper = osxkeychain
+[github]
+	user = kevinsawicki
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
